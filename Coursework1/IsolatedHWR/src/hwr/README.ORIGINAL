@@ -1,0 +1,64 @@
+Folder: AILP/IsolatedHWR/src/hwr
+
+Java source code directory.
+
+---- Programs ----
+
+Distance.java
+  An abstract class for a distance metric. Subclassed by ManhattanDistance
+  and SquaredEuclideanDistance
+
+DTWDist.java
+  The main class used to run a Dynamic Timewarping algorithm on a set
+  of inputs and reference templates.
+
+DynamicTimeWarping.java
+  Calculates the distance between two sets of points using the Dynamic
+  Time Warping.
+
+ManhattanDistance.java
+  Calculates the distance between two points using the Manhattan (city-block)
+  distance metric.
+
+MeanExample.java
+  Given a character input, applies mean normalisation to it and prints out
+  the normalised points.
+
+MeanNormalisation.java
+  Normalises an input point using the mean normalisation method.
+
+Normalisation.java
+  An abstract class representing a normalisation. Subclassed by MeanNormalisation,
+  ScaleNormalisation, SlantNormalisation and SmoothNormalisation.
+
+PenDataReader.java
+  Contains methods to read in data in IIPL format and output a float vector 
+  representing it.
+
+ScaleExample.java
+  Given a character input, applies scale normalisation to it and prints out the
+  normalised points.
+
+ScaleNormalisation.java
+  Normalises an input point using the scale normalisation method.
+
+SlantExample.java
+  Given a character input, applies slant normalisation to it and prints out
+  the normalised points.
+
+SlantNormalisation.java
+  Normalises an input point using the slant normalisation method.
+
+SmoothExample.java
+  Given a character input, apples smoothing to it and prints out the smoothed
+  points.
+
+SmoothNormalisation.java
+  Smoothes an input point using a backwards averaging filter.
+
+SquaredEuclideanDistance.java
+  Calculates the distance between two points using the squared euclidean distance
+  metric.
+
+TimeWarping.java
+  An abstract class representing a time warping algorithm.

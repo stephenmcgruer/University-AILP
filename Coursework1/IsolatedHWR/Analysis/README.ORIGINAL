@@ -1,0 +1,17 @@
+Folder: AILP/IsolatedHWR/Analysis/
+
+Contains Analysis folders.
+
+---- Folders ----
+
+Mean-and-Scale
+  Contains analysis programs and data for mean and scale
+  analysis of the mit data.
+
+Multitemplate
+  Contains analysis programs and data used to analyse the
+  mit data for the best single-template reference patterns.
+
+Slant
+  Contains programs and data used to examine the characters
+  for degree of slant.

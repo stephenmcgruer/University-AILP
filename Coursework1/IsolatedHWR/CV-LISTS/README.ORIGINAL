@@ -1,0 +1,33 @@
+Folder: AILP/IsolatedHWR/CV-LISTS
+
+This directory contains files used for the k-fold Cross Validation test.
+
+----- Files -----
+
+list-cv2-0
+  List of (even) writers for 2-fold CV.
+
+list-cv2-1
+  List of (odd) writers for 2-fold CV.
+
+list-cv5-0
+  List of (mod 5 == 0) writers for 5-fold CV.
+
+list-cv5-1
+  List of (mod 5 == 1) writers for 5-fold CV.
+
+list-cv5-2
+  List of (mod 5 == 2) writers for 5-fold CV.
+
+list-cv5-3
+  List of (mod 5 == 3) writers for 5-fold CV.
+
+list-cv5-4
+  List of (mod 5 == 4) writers for 5-fold CV.
+
+----- Programs -----
+
+mk-cv-list.sh
+  Used to generate the above lists.
+
+  Usage: ./mk-cv-list.sh [-k num_folds] remainder

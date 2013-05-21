@@ -1,0 +1,953 @@
+Base System:
+Digits:
+  Mod 0 Accuracy: 54.19%
+  Mod 0 (CPU) Time: 0.625s
+  Mod 1 Accuracy: 55.00%
+  Mod 1 (CPU) Time: 0.695s
+  Mod 2 Accuracy: 51.25%
+  Mod 2 (CPU) Time: 0.616s
+  Mod 3 Accuracy: 50.62%
+  Mod 3 (CPU) Time: 0.681s
+  Mod 4 Accuracy: 41.88%
+  Mod 4 (CPU) Time: 0.694s
+  Average Accuracy: 50.58%
+  Average (CPU) Time: .662s
+  Accuracy Std Dev: 5.213
+  Time Std Dev: .03847
+
+Lowercase:
+  Mod 0 Accuracy: 42.68%
+  Mod 0 (CPU) Time: 2.170s
+  Mod 1 Accuracy: 42.67%
+  Mod 1 (CPU) Time: 2.359s
+  Mod 2 Accuracy: 39.78%
+  Mod 2 (CPU) Time: 2.320s
+  Mod 3 Accuracy: 32.33%
+  Mod 3 (CPU) Time: 2.270s
+  Mod 4 Accuracy: 44.59%
+  Mod 4 (CPU) Time: 2.289s
+  Average Accuracy: 40.41%
+  Average (CPU) Time: 2.281s
+  Accuracy Std Dev: 4.832
+  Time Std Dev: .07085
+
+Uppercase:
+  Mod 0 Accuracy: 43.92%
+  Mod 0 (CPU) Time: 2.392s
+  Mod 1 Accuracy: 54.09%
+  Mod 1 (CPU) Time: 2.448s
+  Mod 2 Accuracy: 47.36%
+  Mod 2 (CPU) Time: 2.440s
+  Mod 3 Accuracy: 44.35%
+  Mod 3 (CPU) Time: 2.324s
+  Mod 4 Accuracy: 50.84%
+  Mod 4 (CPU) Time: 2.417s
+  Average Accuracy: 48.11%
+  Average (CPU) Time: 2.404s
+  Accuracy Std Dev: 4.343
+  Time Std Dev: .04979
+
+
+Mean System:
+Digits:
+  Mod 0 Accuracy: 82.26%
+  Mod 0 (CPU) Time: 0.663s
+  Mod 1 Accuracy: 72.50%
+  Mod 1 (CPU) Time: 0.646s
+  Mod 2 Accuracy: 75.94%
+  Mod 2 (CPU) Time: 0.667s
+  Mod 3 Accuracy: 79.06%
+  Mod 3 (CPU) Time: 0.657s
+  Mod 4 Accuracy: 64.06%
+  Mod 4 (CPU) Time: 0.680s
+  Average Accuracy: 74.76%
+  Average (CPU) Time: .662s
+  Accuracy Std Dev: 6.995
+  Time Std Dev: .01224
+
+Lowercase:
+  Mod 0 Accuracy: 70.97%
+  Mod 0 (CPU) Time: 2.285s
+  Mod 1 Accuracy: 63.94%
+  Mod 1 (CPU) Time: 2.300s
+  Mod 2 Accuracy: 69.35%
+  Mod 2 (CPU) Time: 2.217s
+  Mod 3 Accuracy: 58.53%
+  Mod 3 (CPU) Time: 2.311s
+  Mod 4 Accuracy: 67.79%
+  Mod 4 (CPU) Time: 2.203s
+  Average Accuracy: 66.11%
+  Average (CPU) Time: 2.263s
+  Accuracy Std Dev: 4.977
+  Time Std Dev: .04959
+
+Uppercase:
+  Mod 0 Accuracy: 59.06%
+  Mod 0 (CPU) Time: 2.285s
+  Mod 1 Accuracy: 61.78%
+  Mod 1 (CPU) Time: 2.285s
+  Mod 2 Accuracy: 67.67%
+  Mod 2 (CPU) Time: 2.386s
+  Mod 3 Accuracy: 69.71%
+  Mod 3 (CPU) Time: 2.272s
+  Mod 4 Accuracy: 68.51%
+  Mod 4 (CPU) Time: 2.234s
+  Average Accuracy: 65.34%
+  Average (CPU) Time: 2.292s
+  Accuracy Std Dev: 4.655
+  Time Std Dev: .05621
+
+
+Scale System:
+Digits:
+  Mod  Accuracy: 14.19%
+  Mod  (CPU) Time: 0.583s
+  Mod  Accuracy: 17.19%
+  Mod  (CPU) Time: 0.617s
+  Mod  Accuracy: 16.88%
+  Mod  (CPU) Time: 0.643s
+  Mod  Accuracy: 10.00%
+  Mod  (CPU) Time: 0.612s
+  Mod  Accuracy: 16.56%
+  Mod  (CPU) Time: 0.628s
+  Average Accuracy: 14.96%
+  Average (CPU) Time: .616s
+  Accuracy Std Dev: 3.016
+  Time Std Dev: .02190
+
+Lowercase:
+  Mod  Accuracy: 10.55%
+  Mod  (CPU) Time: 2.190s
+  Mod  Accuracy: 12.86%
+  Mod  (CPU) Time: 2.242s
+  Mod  Accuracy: 10.46%
+  Mod  (CPU) Time: 2.297s
+  Mod  Accuracy: 5.17%
+  Mod  (CPU) Time: 2.210s
+  Mod  Accuracy: 11.78%
+  Mod  (CPU) Time: 2.192s
+  Average Accuracy: 10.16%
+  Average (CPU) Time: 2.226s
+  Accuracy Std Dev: 2.960
+  Time Std Dev: .04460
+
+Uppercase:
+  Mod  Accuracy: 7.44%
+  Mod  (CPU) Time: 2.305s
+  Mod  Accuracy: 8.65%
+  Mod  (CPU) Time: 2.350s
+  Mod  Accuracy: 11.18%
+  Mod  (CPU) Time: 2.329s
+  Mod  Accuracy: 5.05%
+  Mod  (CPU) Time: 2.284s
+  Mod  Accuracy: 11.90%
+  Mod  (CPU) Time: 2.249s
+  Average Accuracy: 8.84%
+  Average (CPU) Time: 2.303s
+  Accuracy Std Dev: 2.792
+  Time Std Dev: .03911
+
+
+Slant System:
+Digits:
+  Mod 0 Accuracy: 57.42%
+  Mod 0 (CPU) Time: 0.635s
+  Mod 1 Accuracy: 57.81%
+  Mod 1 (CPU) Time: 0.643s
+  Mod 2 Accuracy: 52.50%
+  Mod 2 (CPU) Time: 0.626s
+  Mod 3 Accuracy: 50.31%
+  Mod 3 (CPU) Time: 0.644s
+  Mod 4 Accuracy: 38.75%
+  Mod 4 (CPU) Time: 0.601s
+  Average Accuracy: 51.35%
+  Average (CPU) Time: .629s
+  Accuracy Std Dev: 7.741
+  Time Std Dev: .01732
+
+Lowercase:
+  Mod 0 Accuracy: 42.43%
+  Mod 0 (CPU) Time: 2.226s
+  Mod 1 Accuracy: 44.11%
+  Mod 1 (CPU) Time: 2.232s
+  Mod 2 Accuracy: 39.42%
+  Mod 2 (CPU) Time: 2.331s
+  Mod 3 Accuracy: 31.97%
+  Mod 3 (CPU) Time: 2.264s
+  Mod 4 Accuracy: 43.27%
+  Mod 4 (CPU) Time: 2.221s
+  Average Accuracy: 40.24%
+  Average (CPU) Time: 2.254s
+  Accuracy Std Dev: 4.950
+  Time Std Dev: .04571
+
+Uppercase:
+  Mod 0 Accuracy: 42.56%
+  Mod 0 (CPU) Time: 2.291s
+  Mod 1 Accuracy: 51.08%
+  Mod 1 (CPU) Time: 2.340s
+  Mod 2 Accuracy: 44.95%
+  Mod 2 (CPU) Time: 2.398s
+  Mod 3 Accuracy: 45.67%
+  Mod 3 (CPU) Time: 2.420s
+  Mod 4 Accuracy: 49.76%
+  Mod 4 (CPU) Time: 2.351s
+  Average Accuracy: 46.80%
+  Average (CPU) Time: 2.360s
+  Accuracy Std Dev: 3.526
+  Time Std Dev: .05069
+
+
+Smooth System:
+Digits:
+  Mod 0 Accuracy: 52.90%
+  Mod 0 (CPU) Time: 0.634s
+  Mod 1 Accuracy: 55.31%
+  Mod 1 (CPU) Time: 0.643s
+  Mod 2 Accuracy: 49.06%
+  Mod 2 (CPU) Time: 0.594s
+  Mod 3 Accuracy: 47.81%
+  Mod 3 (CPU) Time: 0.688s
+  Mod 4 Accuracy: 39.69%
+  Mod 4 (CPU) Time: 0.670s
+  Average Accuracy: 48.95%
+  Average (CPU) Time: .645s
+  Accuracy Std Dev: 5.981
+  Time Std Dev: .03591
+
+Lowercase:
+  Mod 0 Accuracy: 42.06%
+  Mod 0 (CPU) Time: 2.187s
+  Mod 1 Accuracy: 42.07%
+  Mod 1 (CPU) Time: 2.271s
+  Mod 2 Accuracy: 38.34%
+  Mod 2 (CPU) Time: 2.212s
+  Mod 3 Accuracy: 30.41%
+  Mod 3 (CPU) Time: 2.257s
+  Mod 4 Accuracy: 43.87%
+  Mod 4 (CPU) Time: 2.260s
+  Average Accuracy: 39.35%
+  Average (CPU) Time: 2.237s
+  Accuracy Std Dev: 5.387
+  Time Std Dev: .03591
+
+Uppercase:
+  Mod 0 Accuracy: 42.56%
+  Mod 0 (CPU) Time: 2.364s
+  Mod 1 Accuracy: 52.40%
+  Mod 1 (CPU) Time: 2.294s
+  Mod 2 Accuracy: 46.63%
+  Mod 2 (CPU) Time: 2.315s
+  Mod 3 Accuracy: 43.51%
+  Mod 3 (CPU) Time: 2.292s
+  Mod 4 Accuracy: 50.72%
+  Mod 4 (CPU) Time: 2.283s
+  Average Accuracy: 47.16%
+  Average (CPU) Time: 2.309s
+  Accuracy Std Dev: 4.327
+  Time Std Dev: .03240
+
+
+Everything-else MT System:
+Digits:
+  Mod 0 Accuracy: 94.52%
+  Mod 0 (CPU) Time: 6.710s
+  Mod 1 Accuracy: 95.00%
+  Mod 1 (CPU) Time: 6.472s
+  Mod 2 Accuracy: 90.31%
+  Mod 2 (CPU) Time: 6.662s
+  Mod 3 Accuracy: 95.00%
+  Mod 3 (CPU) Time: 6.907s
+  Mod 4 Accuracy: 94.38%
+  Mod 4 (CPU) Time: 6.861s
+  Average Accuracy: 93.84%
+  Average (CPU) Time: 6.722s
+  Accuracy Std Dev: 1.993
+  Time Std Dev: .17303
+
+Lowercase:
+  Mod 0 Accuracy: 88.21%
+  Mod 0 (CPU) Time: 41.642s
+  Mod 1 Accuracy: 84.86%
+  Mod 1 (CPU) Time: 37.245s
+  Mod 2 Accuracy: 87.86%
+  Mod 2 (CPU) Time: 38.039s
+  Mod 3 Accuracy: 88.46%
+  Mod 3 (CPU) Time: 38.843s
+  Mod 4 Accuracy: 84.13%
+  Mod 4 (CPU) Time: 37.891s
+  Average Accuracy: 86.70%
+  Average (CPU) Time: 38.732s
+  Accuracy Std Dev: 2.043
+  Time Std Dev: 1.72330
+
+Uppercase:
+  Mod 0 Accuracy: 92.56%
+  Mod 0 (CPU) Time: 40.646s
+  Mod 1 Accuracy: 89.66%
+  Mod 1 (CPU) Time: 41.955s
+  Mod 2 Accuracy: 89.54%
+  Mod 2 (CPU) Time: 40.962s
+  Mod 3 Accuracy: 93.51%
+  Mod 3 (CPU) Time: 41.425s
+  Mod 4 Accuracy: 89.42%
+  Mod 4 (CPU) Time: 40.444s
+  Average Accuracy: 90.93%
+  Average (CPU) Time: 41.086s
+  Accuracy Std Dev: 1.945
+  Time Std Dev: .61057
+
+
+Preselected MT System:
+Digits:
+  Mod  Accuracy: 88.71%
+  Mod  (CPU) Time: 1.092s
+  Mod  Accuracy: 84.38%
+  Mod  (CPU) Time: 1.052s
+  Mod  Accuracy: 78.12%
+  Mod  (CPU) Time: 1.016s
+  Mod  Accuracy: 84.69%
+  Mod  (CPU) Time: 1.003s
+  Mod  Accuracy: 85.00%
+  Mod  (CPU) Time: 1.068s
+  Average Accuracy: 84.18%
+  Average (CPU) Time: 1.046s
+  Accuracy Std Dev: 3.814
+  Time Std Dev: .03660
+
+Lowercase:
+  Mod  Accuracy: 77.05%
+  Mod  (CPU) Time: 4.566s
+  Mod  Accuracy: 71.39%
+  Mod  (CPU) Time: 4.772s
+  Mod  Accuracy: 73.68%
+  Mod  (CPU) Time: 4.615s
+  Mod  Accuracy: 74.40%
+  Mod  (CPU) Time: 4.808s
+  Mod  Accuracy: 72.12%
+  Mod  (CPU) Time: 4.572s
+  Average Accuracy: 73.72%
+  Average (CPU) Time: 4.666s
+  Accuracy Std Dev: 2.209
+  Time Std Dev: .11489
+
+Uppercase:
+  Mod  Accuracy: 81.89%
+  Mod  (CPU) Time: 4.693s
+  Mod  Accuracy: 74.16%
+  Mod  (CPU) Time: 4.837s
+  Mod  Accuracy: 77.04%
+  Mod  (CPU) Time: 4.568s
+  Mod  Accuracy: 81.61%
+  Mod  (CPU) Time: 4.673s
+  Mod  Accuracy: 79.57%
+  Mod  (CPU) Time: 4.611s
+  Average Accuracy: 78.85%
+  Average (CPU) Time: 4.676s
+  Accuracy Std Dev: 3.265
+  Time Std Dev: .10256
+
+
+Random MT System:
+1
+Digits:
+  Mod  Accuracy: 82.58%
+  Mod  (CPU) Time: 0.990s
+  Mod  Accuracy: 81.88%
+  Mod  (CPU) Time: 0.987s
+  Mod  Accuracy: 69.06%
+  Mod  (CPU) Time: 1.122s
+  Mod  Accuracy: 78.44%
+  Mod  (CPU) Time: 1.013s
+  Mod  Accuracy: 84.06%
+  Mod  (CPU) Time: 1.031s
+  Average Accuracy: 79.20%
+  Average (CPU) Time: 1.028s
+  Accuracy Std Dev: 6.033
+  Time Std Dev: .05513
+
+Lowercase:
+  Mod  Accuracy: 72.46%
+  Mod  (CPU) Time: 4.650s
+  Mod  Accuracy: 68.63%
+  Mod  (CPU) Time: 4.669s
+  Mod  Accuracy: 72.84%
+  Mod  (CPU) Time: 4.476s
+  Mod  Accuracy: 68.87%
+  Mod  (CPU) Time: 4.621s
+  Mod  Accuracy: 68.27%
+  Mod  (CPU) Time: 4.766s
+  Average Accuracy: 70.21%
+  Average (CPU) Time: 4.636s
+  Accuracy Std Dev: 2.237
+  Time Std Dev: .10483
+
+Uppercase:
+  Mod  Accuracy: 75.43%
+  Mod  (CPU) Time: 4.460s
+  Mod  Accuracy: 74.28%
+  Mod  (CPU) Time: 4.644s
+  Mod  Accuracy: 75.24%
+  Mod  (CPU) Time: 4.932s
+  Mod  Accuracy: 75.60%
+  Mod  (CPU) Time: 4.938s
+  Mod  Accuracy: 76.20%
+  Mod  (CPU) Time: 4.871s
+  Average Accuracy: 75.35%
+  Average (CPU) Time: 4.769s
+  Accuracy Std Dev: .697
+  Time Std Dev: .21011
+
+
+2
+Digits:
+  Mod  Accuracy: 82.26%
+  Mod  (CPU) Time: 1.068s
+  Mod  Accuracy: 80.00%
+  Mod  (CPU) Time: 1.130s
+  Mod  Accuracy: 76.56%
+  Mod  (CPU) Time: 1.018s
+  Mod  Accuracy: 75.94%
+  Mod  (CPU) Time: 0.987s
+  Mod  Accuracy: 76.25%
+  Mod  (CPU) Time: 1.009s
+  Average Accuracy: 78.20%
+  Average (CPU) Time: 1.042s
+  Accuracy Std Dev: 2.798
+  Time Std Dev: .05718
+
+Lowercase:
+  Mod  Accuracy: 69.11%
+  Mod  (CPU) Time: 4.546s
+  Mod  Accuracy: 63.46%
+  Mod  (CPU) Time: 4.544s
+  Mod  Accuracy: 71.63%
+  Mod  (CPU) Time: 4.680s
+  Mod  Accuracy: 64.42%
+  Mod  (CPU) Time: 4.487s
+  Mod  Accuracy: 66.23%
+  Mod  (CPU) Time: 4.740s
+  Average Accuracy: 66.97%
+  Average (CPU) Time: 4.599s
+  Accuracy Std Dev: 3.378
+  Time Std Dev: .10583
+
+Uppercase:
+  Mod  Accuracy: 77.92%
+  Mod  (CPU) Time: 4.716s
+  Mod  Accuracy: 70.79%
+  Mod  (CPU) Time: 4.494s
+  Mod  Accuracy: 74.64%
+  Mod  (CPU) Time: 4.655s
+  Mod  Accuracy: 72.36%
+  Mod  (CPU) Time: 4.700s
+  Mod  Accuracy: 75.36%
+  Mod  (CPU) Time: 4.662s
+  Average Accuracy: 74.21%
+  Average (CPU) Time: 4.645s
+  Accuracy Std Dev: 2.756
+  Time Std Dev: .08837
+
+
+3
+Digits:
+  Mod  Accuracy: 78.39%
+  Mod  (CPU) Time: 1.032s
+  Mod  Accuracy: 85.31%
+  Mod  (CPU) Time: 1.061s
+  Mod  Accuracy: 76.25%
+  Mod  (CPU) Time: 1.036s
+  Mod  Accuracy: 83.44%
+  Mod  (CPU) Time: 1.040s
+  Mod  Accuracy: 80.31%
+  Mod  (CPU) Time: 1.035s
+  Average Accuracy: 80.74%
+  Average (CPU) Time: 1.040s
+  Accuracy Std Dev: 3.675
+  Time Std Dev: .01140
+
+Lowercase:
+  Mod  Accuracy: 71.22%
+  Mod  (CPU) Time: 4.596s
+  Mod  Accuracy: 67.67%
+  Mod  (CPU) Time: 4.564s
+  Mod  Accuracy: 67.55%
+  Mod  (CPU) Time: 4.491s
+  Mod  Accuracy: 70.43%
+  Mod  (CPU) Time: 4.553s
+  Mod  Accuracy: 71.63%
+  Mod  (CPU) Time: 4.444s
+  Average Accuracy: 69.70%
+  Average (CPU) Time: 4.529s
+  Accuracy Std Dev: 1.956
+  Time Std Dev: .06107
+
+Uppercase:
+  Mod  Accuracy: 79.28%
+  Mod  (CPU) Time: 4.448s
+  Mod  Accuracy: 74.52%
+  Mod  (CPU) Time: 4.681s
+  Mod  Accuracy: 75.96%
+  Mod  (CPU) Time: 4.565s
+  Mod  Accuracy: 79.21%
+  Mod  (CPU) Time: 4.676s
+  Mod  Accuracy: 76.68%
+  Mod  (CPU) Time: 4.655s
+  Average Accuracy: 77.13%
+  Average (CPU) Time: 4.605s
+  Accuracy Std Dev: 2.081
+  Time Std Dev: .09939
+
+
+4
+Digits:
+  Mod  Accuracy: 77.42%
+  Mod  (CPU) Time: 0.974s
+  Mod  Accuracy: 77.50%
+  Mod  (CPU) Time: 1.048s
+  Mod  Accuracy: 77.81%
+  Mod  (CPU) Time: 0.994s
+  Mod  Accuracy: 78.75%
+  Mod  (CPU) Time: 0.955s
+  Mod  Accuracy: 81.25%
+  Mod  (CPU) Time: 0.995s
+  Average Accuracy: 78.54%
+  Average (CPU) Time: .993s
+  Accuracy Std Dev: 1.600
+  Time Std Dev: .03464
+
+Lowercase:
+  Mod  Accuracy: 69.23%
+  Mod  (CPU) Time: 4.356s
+  Mod  Accuracy: 66.11%
+  Mod  (CPU) Time: 4.493s
+  Mod  Accuracy: 66.59%
+  Mod  (CPU) Time: 4.559s
+  Mod  Accuracy: 70.19%
+  Mod  (CPU) Time: 4.550s
+  Mod  Accuracy: 67.43%
+  Mod  (CPU) Time: 4.439s
+  Average Accuracy: 67.91%
+  Average (CPU) Time: 4.479s
+  Accuracy Std Dev: 1.742
+  Time Std Dev: .08414
+
+Uppercase:
+  Mod  Accuracy: 71.09%
+  Mod  (CPU) Time: 4.391s
+  Mod  Accuracy: 75.96%
+  Mod  (CPU) Time: 4.499s
+  Mod  Accuracy: 70.91%
+  Mod  (CPU) Time: 4.534s
+  Mod  Accuracy: 74.04%
+  Mod  (CPU) Time: 4.721s
+  Mod  Accuracy: 78.73%
+  Mod  (CPU) Time: 4.651s
+  Average Accuracy: 74.14%
+  Average (CPU) Time: 4.559s
+  Accuracy Std Dev: 3.321
+  Time Std Dev: .12953
+
+
+5
+Digits:
+  Mod  Accuracy: 80.32%
+  Mod  (CPU) Time: 1.032s
+  Mod  Accuracy: 85.31%
+  Mod  (CPU) Time: 1.049s
+  Mod  Accuracy: 75.31%
+  Mod  (CPU) Time: 1.098s
+  Mod  Accuracy: 79.06%
+  Mod  (CPU) Time: 1.074s
+  Mod  Accuracy: 83.44%
+  Mod  (CPU) Time: 1.014s
+  Average Accuracy: 80.68%
+  Average (CPU) Time: 1.053s
+  Accuracy Std Dev: 3.893
+  Time Std Dev: .03316
+
+Lowercase:
+  Mod  Accuracy: 69.60%
+  Mod  (CPU) Time: 4.470s
+  Mod  Accuracy: 65.38%
+  Mod  (CPU) Time: 4.479s
+  Mod  Accuracy: 67.67%
+  Mod  (CPU) Time: 4.591s
+  Mod  Accuracy: 67.43%
+  Mod  (CPU) Time: 4.740s
+  Mod  Accuracy: 69.47%
+  Mod  (CPU) Time: 4.716s
+  Average Accuracy: 67.91%
+  Average (CPU) Time: 4.599s
+  Accuracy Std Dev: 1.730
+  Time Std Dev: .12712
+
+Uppercase:
+  Mod  Accuracy: 78.66%
+  Mod  (CPU) Time: 4.608s
+  Mod  Accuracy: 72.00%
+  Mod  (CPU) Time: 4.930s
+  Mod  Accuracy: 70.07%
+  Mod  (CPU) Time: 4.609s
+  Mod  Accuracy: 78.37%
+  Mod  (CPU) Time: 4.543s
+  Mod  Accuracy: 77.16%
+  Mod  (CPU) Time: 4.621s
+  Average Accuracy: 75.25%
+  Average (CPU) Time: 4.662s
+  Accuracy Std Dev: 3.949
+  Time Std Dev: .15277
+
+
+6
+Digits:
+  Mod  Accuracy: 82.26%
+  Mod  (CPU) Time: 1.076s
+  Mod  Accuracy: 81.25%
+  Mod  (CPU) Time: 1.027s
+  Mod  Accuracy: 69.06%
+  Mod  (CPU) Time: 0.983s
+  Mod  Accuracy: 81.88%
+  Mod  (CPU) Time: 1.030s
+  Mod  Accuracy: 78.44%
+  Mod  (CPU) Time: 1.009s
+  Average Accuracy: 78.57%
+  Average (CPU) Time: 1.025s
+  Accuracy Std Dev: 5.527
+  Time Std Dev: .03391
+
+Lowercase:
+  Mod  Accuracy: 67.49%
+  Mod  (CPU) Time: 4.473s
+  Mod  Accuracy: 68.03%
+  Mod  (CPU) Time: 4.477s
+  Mod  Accuracy: 66.83%
+  Mod  (CPU) Time: 4.482s
+  Mod  Accuracy: 71.88%
+  Mod  (CPU) Time: 4.905s
+  Mod  Accuracy: 67.07%
+  Mod  (CPU) Time: 4.743s
+  Average Accuracy: 68.26%
+  Average (CPU) Time: 4.616s
+  Accuracy Std Dev: 2.074
+  Time Std Dev: .19831
+
+Uppercase:
+  Mod  Accuracy: 74.44%
+  Mod  (CPU) Time: 4.784s
+  Mod  Accuracy: 71.63%
+  Mod  (CPU) Time: 4.559s
+  Mod  Accuracy: 73.44%
+  Mod  (CPU) Time: 4.509s
+  Mod  Accuracy: 77.28%
+  Mod  (CPU) Time: 4.575s
+  Mod  Accuracy: 77.16%
+  Mod  (CPU) Time: 4.525s
+  Average Accuracy: 74.79%
+  Average (CPU) Time: 4.590s
+  Accuracy Std Dev: 2.436
+  Time Std Dev: .11131
+
+
+7
+Digits:
+  Mod  Accuracy: 80.00%
+  Mod  (CPU) Time: 1.107s
+  Mod  Accuracy: 83.44%
+  Mod  (CPU) Time: 1.064s
+  Mod  Accuracy: 76.25%
+  Mod  (CPU) Time: 1.110s
+  Mod  Accuracy: 82.19%
+  Mod  (CPU) Time: 1.071s
+  Mod  Accuracy: 79.06%
+  Mod  (CPU) Time: 1.031s
+  Average Accuracy: 80.18%
+  Average (CPU) Time: 1.076s
+  Accuracy Std Dev: 2.801
+  Time Std Dev: .03271
+
+Lowercase:
+  Mod  Accuracy: 65.76%
+  Mod  (CPU) Time: 4.741s
+  Mod  Accuracy: 66.83%
+  Mod  (CPU) Time: 4.597s
+  Mod  Accuracy: 72.60%
+  Mod  (CPU) Time: 4.646s
+  Mod  Accuracy: 74.64%
+  Mod  (CPU) Time: 4.515s
+  Mod  Accuracy: 67.07%
+  Mod  (CPU) Time: 4.562s
+  Average Accuracy: 69.38%
+  Average (CPU) Time: 4.612s
+  Accuracy Std Dev: 3.967
+  Time Std Dev: .08642
+
+Uppercase:
+  Mod  Accuracy: 76.67%
+  Mod  (CPU) Time: 4.687s
+  Mod  Accuracy: 72.60%
+  Mod  (CPU) Time: 4.756s
+  Mod  Accuracy: 77.88%
+  Mod  (CPU) Time: 4.792s
+  Mod  Accuracy: 79.69%
+  Mod  (CPU) Time: 4.909s
+  Mod  Accuracy: 75.12%
+  Mod  (CPU) Time: 4.523s
+  Average Accuracy: 76.39%
+  Average (CPU) Time: 4.733s
+  Accuracy Std Dev: 2.700
+  Time Std Dev: .14244
+
+
+8
+Digits:
+  Mod  Accuracy: 86.13%
+  Mod  (CPU) Time: 0.984s
+  Mod  Accuracy: 82.19%
+  Mod  (CPU) Time: 0.922s
+  Mod  Accuracy: 73.12%
+  Mod  (CPU) Time: 1.008s
+  Mod  Accuracy: 80.62%
+  Mod  (CPU) Time: 0.994s
+  Mod  Accuracy: 80.62%
+  Mod  (CPU) Time: 1.035s
+  Average Accuracy: 80.53%
+  Average (CPU) Time: .988s
+  Accuracy Std Dev: 4.717
+  Time Std Dev: .04171
+
+Lowercase:
+  Mod  Accuracy: 68.36%
+  Mod  (CPU) Time: 4.469s
+  Mod  Accuracy: 62.14%
+  Mod  (CPU) Time: 4.552s
+  Mod  Accuracy: 66.11%
+  Mod  (CPU) Time: 4.542s
+  Mod  Accuracy: 67.67%
+  Mod  (CPU) Time: 4.470s
+  Mod  Accuracy: 67.31%
+  Mod  (CPU) Time: 4.551s
+  Average Accuracy: 66.31%
+  Average (CPU) Time: 4.516s
+  Accuracy Std Dev: 2.473
+  Time Std Dev: .04324
+
+Uppercase:
+  Mod  Accuracy: 77.92%
+  Mod  (CPU) Time: 4.751s
+  Mod  Accuracy: 72.96%
+  Mod  (CPU) Time: 4.904s
+  Mod  Accuracy: 71.63%
+  Mod  (CPU) Time: 4.620s
+  Mod  Accuracy: 78.97%
+  Mod  (CPU) Time: 4.592s
+  Mod  Accuracy: 76.44%
+  Mod  (CPU) Time: 4.713s
+  Average Accuracy: 75.58%
+  Average (CPU) Time: 4.716s
+  Accuracy Std Dev: 3.169
+  Time Std Dev: .12361
+
+
+9
+Digits:
+  Mod  Accuracy: 77.42%
+  Mod  (CPU) Time: 0.946s
+  Mod  Accuracy: 79.38%
+  Mod  (CPU) Time: 0.961s
+  Mod  Accuracy: 78.75%
+  Mod  (CPU) Time: 0.972s
+  Mod  Accuracy: 84.38%
+  Mod  (CPU) Time: 0.986s
+  Mod  Accuracy: 82.81%
+  Mod  (CPU) Time: 1.012s
+  Average Accuracy: 80.54%
+  Average (CPU) Time: .975s
+  Accuracy Std Dev: 2.923
+  Time Std Dev: .02489
+
+Lowercase:
+  Mod  Accuracy: 68.61%
+  Mod  (CPU) Time: 4.497s
+  Mod  Accuracy: 65.02%
+  Mod  (CPU) Time: 4.795s
+  Mod  Accuracy: 72.36%
+  Mod  (CPU) Time: 4.485s
+  Mod  Accuracy: 75.24%
+  Mod  (CPU) Time: 4.534s
+  Mod  Accuracy: 69.23%
+  Mod  (CPU) Time: 4.600s
+  Average Accuracy: 70.09%
+  Average (CPU) Time: 4.582s
+  Accuracy Std Dev: 3.882
+  Time Std Dev: .12708
+
+Uppercase:
+  Mod  Accuracy: 77.92%
+  Mod  (CPU) Time: 4.417s
+  Mod  Accuracy: 74.64%
+  Mod  (CPU) Time: 4.522s
+  Mod  Accuracy: 77.16%
+  Mod  (CPU) Time: 4.643s
+  Mod  Accuracy: 77.52%
+  Mod  (CPU) Time: 4.838s
+  Mod  Accuracy: 79.69%
+  Mod  (CPU) Time: 4.804s
+  Average Accuracy: 77.38%
+  Average (CPU) Time: 4.644s
+  Accuracy Std Dev: 1.816
+  Time Std Dev: .18000
+
+
+10
+Digits:
+  Mod  Accuracy: 81.94%
+  Mod  (CPU) Time: 1.033s
+  Mod  Accuracy: 83.75%
+  Mod  (CPU) Time: 1.005s
+  Mod  Accuracy: 75.00%
+  Mod  (CPU) Time: 1.001s
+  Mod  Accuracy: 75.00%
+  Mod  (CPU) Time: 0.998s
+  Mod  Accuracy: 82.19%
+  Mod  (CPU) Time: 0.992s
+  Average Accuracy: 79.57%
+  Average (CPU) Time: 1.005s
+  Accuracy Std Dev: 4.234
+  Time Std Dev: .01549
+
+Lowercase:
+  Mod  Accuracy: 67.49%
+  Mod  (CPU) Time: 4.524s
+  Mod  Accuracy: 68.39%
+  Mod  (CPU) Time: 4.489s
+  Mod  Accuracy: 72.48%
+  Mod  (CPU) Time: 4.607s
+  Mod  Accuracy: 64.42%
+  Mod  (CPU) Time: 4.584s
+  Mod  Accuracy: 65.50%
+  Mod  (CPU) Time: 4.586s
+  Average Accuracy: 67.65%
+  Average (CPU) Time: 4.558s
+  Accuracy Std Dev: 3.120
+  Time Std Dev: .04939
+
+Uppercase:
+  Mod  Accuracy: 75.93%
+  Mod  (CPU) Time: 4.570s
+  Mod  Accuracy: 79.09%
+  Mod  (CPU) Time: 4.585s
+  Mod  Accuracy: 74.16%
+  Mod  (CPU) Time: 4.532s
+  Mod  Accuracy: 73.56%
+  Mod  (CPU) Time: 4.596s
+  Mod  Accuracy: 75.24%
+  Mod  (CPU) Time: 4.456s
+  Average Accuracy: 75.59%
+  Average (CPU) Time: 4.547s
+  Accuracy Std Dev: 2.159
+  Time Std Dev: .05665
+
+
+
+
+Mean and Scale System:
+Digits:
+  Mod 0 Accuracy: 85.16%
+  Mod 0 (CPU) Time: 0.634s
+  Mod 1 Accuracy: 74.38%
+  Mod 1 (CPU) Time: 0.625s
+  Mod 2 Accuracy: 75.62%
+  Mod 2 (CPU) Time: 0.664s
+  Mod 3 Accuracy: 80.00%
+  Mod 3 (CPU) Time: 0.637s
+  Mod 4 Accuracy: 60.00%
+  Mod 4 (CPU) Time: 0.632s
+  Average Accuracy: 75.03%
+  Average (CPU) Time: .638s
+  Accuracy Std Dev: 9.407
+  Time Std Dev: .01449
+
+Lowercase:
+  Mod 0 Accuracy: 66.13%
+  Mod 0 (CPU) Time: 2.359s
+  Mod 1 Accuracy: 67.91%
+  Mod 1 (CPU) Time: 2.320s
+  Mod 2 Accuracy: 73.08%
+  Mod 2 (CPU) Time: 2.360s
+  Mod 3 Accuracy: 66.47%
+  Mod 3 (CPU) Time: 2.294s
+  Mod 4 Accuracy: 68.99%
+  Mod 4 (CPU) Time: 2.239s
+  Average Accuracy: 68.51%
+  Average (CPU) Time: 2.314s
+  Accuracy Std Dev: 2.797
+  Time Std Dev: .05039
+
+Uppercase:
+  Mod 0 Accuracy: 61.79%
+  Mod 0 (CPU) Time: 2.325s
+  Mod 1 Accuracy: 69.23%
+  Mod 1 (CPU) Time: 2.313s
+  Mod 2 Accuracy: 66.95%
+  Mod 2 (CPU) Time: 2.339s
+  Mod 3 Accuracy: 68.03%
+  Mod 3 (CPU) Time: 2.308s
+  Mod 4 Accuracy: 71.51%
+  Mod 4 (CPU) Time: 2.358s
+  Average Accuracy: 67.50%
+  Average (CPU) Time: 2.328s
+  Accuracy Std Dev: 3.614
+  Time Std Dev: .02024
+
+
+Best System:
+Digits:
+  Mod  Accuracy: 93.55%
+  Mod  (CPU) Time: 1.011s
+  Mod  Accuracy: 94.06%
+  Mod  (CPU) Time: 1.025s
+  Mod  Accuracy: 88.75%
+  Mod  (CPU) Time: 1.079s
+  Mod  Accuracy: 92.19%
+  Mod  (CPU) Time: 1.010s
+  Mod  Accuracy: 91.25%
+  Mod  (CPU) Time: 1.040s
+  Average Accuracy: 91.96%
+  Average (CPU) Time: 1.033s
+  Accuracy Std Dev: 2.109
+  Time Std Dev: .02828
+
+Lowercase:
+  Mod  Accuracy: 87.34%
+  Mod  (CPU) Time: 4.718s
+  Mod  Accuracy: 81.25%
+  Mod  (CPU) Time: 4.475s
+  Mod  Accuracy: 85.70%
+  Mod  (CPU) Time: 4.434s
+  Mod  Accuracy: 85.70%
+  Mod  (CPU) Time: 4.543s
+  Mod  Accuracy: 82.69%
+  Mod  (CPU) Time: 4.499s
+  Average Accuracy: 84.53%
+  Average (CPU) Time: 4.533s
+  Accuracy Std Dev: 2.488
+  Time Std Dev: .11022
+
+Uppercase:
+  Mod  Accuracy: 90.32%
+  Mod  (CPU) Time: 4.541s
+  Mod  Accuracy: 86.54%
+  Mod  (CPU) Time: 4.618s
+  Mod  Accuracy: 87.62%
+  Mod  (CPU) Time: 4.637s
+  Mod  Accuracy: 92.79%
+  Mod  (CPU) Time: 4.674s
+  Mod  Accuracy: 88.46%
+  Mod  (CPU) Time: 4.708s
+  Average Accuracy: 89.14%
+  Average (CPU) Time: 4.635s
+  Accuracy Std Dev: 2.461
+  Time Std Dev: .06308
+
+

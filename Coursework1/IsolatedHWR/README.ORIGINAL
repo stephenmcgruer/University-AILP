@@ -1,0 +1,32 @@
+Folder: AILP/IsolatedHWR/
+
+The main trunk folder for the AILP Coursework 1 data.
+
+---- Folders ------
+
+Analysis
+  Contains programs and output files for the pre-analysis
+  of the character data, specifically analysing the mean
+  and scale of the characters, and analysing the data for
+  multitemplating.
+
+bin
+  Contains scripts used to run the recognition algorithms
+  and to analyse the output, as well as display the character
+  data. No scripts in this folder were written by myself.
+
+CV-LISTS
+  Contains the lists of writers used in cross-validation.
+
+DTW
+  Contains the main project script files. See the README
+  in this folder for more information. Most files in this
+  folder were either written or heavily changed by myself.
+
+Report-Examples
+  Contains programs and files used to create the example
+  used in the report to show the effects of mean, scale,
+  slant and smooth normalisation.
+
+src
+  Contains the Java source files for the project.

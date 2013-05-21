@@ -1,0 +1,78 @@
+Folder: AILP/
+
+The main trunk folder for the AILP Coursework 1.
+
+Hello there! Welcome to my submission for the AILP Coursework 1.
+This file contains a few points that I hope will be helpful to 
+you when examining my project.
+
+ * Almost all of the files that I wrote or changed heavily can
+   be found in the folders Analysis, DTW, Report-Examples, and
+   src, under the "IsolatedHWR" folder in this directory.
+
+ * I have edited almost every file in the Java source code to
+   some extent (even if it is just adding javadoc to the file),
+   so I have not bothered to include a list of added/edited files
+   there.
+
+ * Similarily, all of the code in the DTW folder has been either
+   written or heavily modified by myself.
+
+ * The use of my system should be fairly clear - there are
+   (a rather large number of) scripts in the DTW folder to run 
+   the varying systems, from the base system through to the 
+   'best' system. However, if you wish to run a version of the
+   system manually, the format for usage is as follows:
+
+     (Single-reference)
+     ./run-dtw-dist.sh $CLASS $I $WRITER [$COMMANDS]
+
+     (Multiple-reference)
+     ./run-dtw-dist-mt.sh $REFWRITERS $TESTWRITERS $I $CLASS
+
+      Where:
+        $CLASS is Digits|Uppercase|Lowercase
+
+        $I is 0|1|2|3|4 (i.e. which of the 5-fold cross
+                         validations to use.)
+
+        $WRITER is the reference writer for single template,
+                i.e. s001
+
+        $COMMANDS is a (bash, i.e. space seperated) list of 
+                  normalisation commands to be passed to the
+                  Java code. Accepted commands are mean, scale,
+                  slant and smooth. Other commands will be
+                  ignored.
+
+        $REFWRITERS is a file containing a list of reference
+                    writers, newline seperated.
+
+        $TESTWRITERS is a file containing a list of testing
+                     writers, newline seperated.
+    
+    (Yes, I notice that the $I and $CLASS swap places, but it's
+     1am and I just noticed it. Forgive me.)
+
+    These commands should give output suitable for passing either
+    straight to cv-ana-test, or via mt-knn to cv-ana-test.
+
+  * If you wish to run all of the systems I have devised for this
+    project, execute run-all.sh in the DTW directory. This will
+    take a LONG time, and will output the results to the file
+    experiment.test. 
+
+  * Please read the READMEs! The README for a folder should (hopefully)
+    give a decent explanation of the point of that folder and the
+    scripts/data inside it.
+
+I hope that these instructions and my project are straight-forward
+enough, and if not I apologise. 
+     
+---- Folders ------
+
+IsolatedHWR
+  Contains all of the project code, data, etc.
+
+Report
+  Contains the report.

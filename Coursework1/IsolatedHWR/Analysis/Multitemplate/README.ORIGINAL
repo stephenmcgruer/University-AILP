@@ -1,0 +1,31 @@
+Folder: AILP/IsolatedHWR/Analysis/Multitemplate
+
+This folder contains files used to analyse the character data for
+the best single-reference patterns.
+
+----- Programs -----
+
+analyse.sh
+  The main analysis program, which calls the other programs. Gives a list
+  of the top X writers to use as single-template reference patterns for
+  both the odd and even datasets.
+
+  Usage: analyse.sh num_of_top
+
+old-analyse.sh
+  The old version of analyse.sh, from when I was only doing 2-fold cross
+  validation.
+
+analyse_file.rb
+  Opens a file passed to it by analyse.sh, extracts the top X writers from
+  the file based on their accuracy, and outputs those writer names to a file
+  given to it.
+
+  Usage: ruby analyse_file.rb input_file num_of_top output_file"
+  
+---- Files ----
+
+top-x-even
+top-x-odd
+top-x-notY
+  The results of running analyse.sh with the input number x. And modulus Y.

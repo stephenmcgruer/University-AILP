@@ -1,0 +1,23 @@
+Folder: AILP/IsolatedHWR/Analysis/Slant
+
+Contains files and data for generating 20 random characters
+for each character class.
+
+---- Programs ----
+
+analysis.rb
+  Copies 20 random MIT-points for each character class. Horribly hacked.
+  
+  Usage: ruby analysis.rb
+
+---- Folders ----
+
+digits  
+  Contains the digit data.
+
+lower
+  Contains the lowercase data.
+
+upper
+  Contains the uppercase data.
+

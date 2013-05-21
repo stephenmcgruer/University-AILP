@@ -1,0 +1,67 @@
+Folder: AILP/IsolatedHWR/Analysis/Mean-and-Scale
+
+This folder contains files used to analyse the character data for
+mean and scale.
+
+----- Programs -----
+
+analyse.sh
+  The main analysis program, which calls the other programs. Creates
+  analysis graphs for each of the three classes and places them in the
+  correct subfolder. 
+
+  Usage: analyse.sh
+
+  Note - you must have ruby and matlab installed for this script to run
+         successfully.
+
+analyse_mean.rb
+  Runs mean analysis on the list of files passed to it. Outputs two files
+  which can be read by analyse_mean.m to create histograms for the data.
+  Does *not* use any Java code - all of the finding of the mean etc is done
+  in Ruby. The output files are saved explicitly as xHisto.dat and yHisto.dat.
+
+  Usage: ruby analyse_mean.rb file_list
+          where:
+            file_list is a file containing a list of files to be mean
+            analysed.
+
+analyse_mean.m
+  Takes the output from analyse_mean.rb and converts it in to two
+  histograms for the x and y coordinates. The input is read
+  explicitly from the files xHisto.dat and yHisto.dat, because
+  I could not figure out how to get Matlab programs to take command
+  line parameters. 
+
+  Usage: matlab -nodisplay -r analyse_mean
+
+analyse_scale.rb
+  Runs scale analysis on the list of files passed to it. Outputs
+  a file which can be read by analyse_scale.m to create a histogram.
+  Does *not* use any Java code - all of the bounding-box finding
+  etc is done in Ruby. The output file is saved explicitly as 
+  bHisto.dat.
+
+  Usage: ruby analyse_scale.rb file_list
+          where:
+            file_list is a file containing a list of files to be
+            scale analysed.
+
+analyse_scale.m
+  Takes the output from analyse_scale.rb and converts it in to a
+  histograms for the x and y coordinates. The input is read
+  explicitly from the file bHisto.dat, because I could not figure
+  out how to get Matlab programs to take command line parameters.
+
+  Usage: matlab -nodisplay -r analyse_scale
+  
+---- Folders ----
+
+digits
+  Contains the analysis graphs for the Digits class.
+
+lower
+  Contains the analysis graphs for the Lowercase class.
+
+upper
+  Contains the analysis graphs for the Uppercase class.

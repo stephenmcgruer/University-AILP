@@ -1,0 +1,33 @@
+Folder: AILP/IsolatedHWR/bin
+
+This folder contains scripts used to run the recognition
+algorithms, and to display the mit data. No scripts in this
+folder were written or changed by myself for the project.
+
+----- Programs -----
+
+cv-ana-test.pl
+  Takes in the output of run-dtw-dish.sh or mt-knn.pl and produces
+  an accuracy frequency and confusion matrix for the data.
+
+  Usage: ./cv-ana-test.pl in_file
+
+display.py
+disp.py
+  Used to visualise the mit character data. Disp.py is a wrapper
+  for display.py.
+
+  Usage: ./disp.py in_file
+
+dtw.sh
+  Wrapper for the Java DTWDist.java class.
+
+  Usage: ./dtw.sh input_file reference_file [normalisations]
+
+mt-knn.pl
+  Does a k-nearest neighbour search on the output of run-dtw-dist-mt.sh,
+  outputting the data in a format suitable for piping into cv-ana-test.pl.
+  Defaults to k = 1, but can be set explicitly with -k flag.
+
+  Usage: ./mt-knn.pl [-k X] in_file
+

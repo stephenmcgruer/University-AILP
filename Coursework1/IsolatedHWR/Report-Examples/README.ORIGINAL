@@ -1,0 +1,31 @@
+Folder: AILP/IsolatedHWR/Examples
+
+A dumping-ground folder for all of the examples used
+within the report, and a few other bits and pieces.
+
+----- Programs -----
+
+examples.sh
+  Creates examples of applying the different normalisation techniques
+  to an example character.
+
+  Usage: ./examples.sh
+
+----- Symlinks -----
+
+disp.py
+  Displays IIPL character data.
+
+  Usage: ./disp.py in_file
+
+  Actual location: ../bin
+
+----- Folders ------
+
+data
+  Contains the .dat files output by examples.sh. View
+  using ./disp.py data/example_name.dat
+
+styles
+  Contains images of four different styles of writing
+  'f' used as an example in the report.
