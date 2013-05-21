@@ -1,0 +1,28 @@
+Folder: ailp_a2/ContinuousHWR
+
+The main trunk folder for the AILP Coursework 1 data.
+
+---- Folders ------
+
+bin
+  Contains scripts used to run the recognition algorithms
+  and to analyse the output, as well as display the character
+  data. No scripts in this folder were written by myself.
+
+CV-LISTS
+  Contains the lists of writers used in cross-validation.
+
+dic
+  Contains the lists of words used for the dictionary search. (As an
+  side, dic-large is MISSING a freaking word! There is no "Approaching".
+  I did not discover this until the last blooming minute -_-.)
+
+etc
+  Contains miscellaneous files for mapping indices to characters.
+
+output
+  Contains the outputs for each experiment included in my report (and 
+  some extra).
+
+src
+  Contains the Java source files for the project.

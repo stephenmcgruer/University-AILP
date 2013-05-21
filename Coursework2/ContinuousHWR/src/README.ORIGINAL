@@ -1,0 +1,15 @@
+Folder: AILP/IsolatedHWR/src
+
+The parent directory to the Java code source.
+
+---- Programs ----
+
+compile.sh
+  Compiles all of the java code in the hwr folder.
+
+  Usage: ./compile.sh
+
+---- Folders ------
+
+hwr
+  Contains the java source code.

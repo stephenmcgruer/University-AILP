@@ -1,0 +1,66 @@
+Folder: ailp_a2
+
+The main trunk folder for the AILP Coursework 2.
+
+Hello there! Welcome to my submission for the AILP Coursework 2.
+This file contains a few points that I hope will be helpful to 
+you when examining my project.
+
+ * Almost all of the files that I wrote or changed heavily can
+   be found in the folders bin and src, under the "ContinuousHWR"
+   folder in this directory.
+
+ * I have edited almost every file in the Java source code to
+   some extent (even if it is just adding javadoc to the file),
+   so I have not bothered to include a list of added/edited files
+   there. Some of these files are the same as from the first part,
+   but most have changed.
+
+ * The use of my system should be fairly clear - there are
+   (a rather large number of) scripts in the bin folder to run 
+   the varying systems, from the base system through to the 
+   'best' system. However, if you wish to run a version of the
+   system manually, the format for usage is as follows:
+
+     ./run-dtw-dist.sh $CLASS $I $WRITER [$COMMANDS]
+
+      Where:
+        $CLASS is Digits|Uppercase|Lowercase
+
+        $I is 0|1|2|3|4 (i.e. which of the 5-fold cross
+                         validations to use.)
+
+        $WRITER is the reference writer for single template,
+                i.e. s001
+
+        $COMMANDS is a (bash, i.e. space seperated) list of 
+                  normalisation commands to be passed to the
+                  Java code. Accepted commands are mean, scale,
+                  slant and smooth. Other commands will be
+                  ignored.
+
+        $REFWRITERS is a file containing a list of reference
+                    writers, newline seperated.
+
+        $TESTWRITERS is a file containing a list of testing
+                     writers, newline seperated.
+
+  * If you wish to run all of the systems I have devised for this
+    project, execute run-all.sh in the DTW directory. This will
+    take a LONG time, and will output the results for each 
+    experiment as it finishes.
+
+  * Please read the READMEs! The README for a folder should (hopefully)
+    give a decent explanation of the point of that folder and the
+    scripts/data inside it.
+
+I hope that these instructions and my project are straight-forward
+enough.
+
+---- Folders ------
+
+ContinuousHWR
+  Contains all of the project code, data, etc.
+
+Report
+  Contains the report.

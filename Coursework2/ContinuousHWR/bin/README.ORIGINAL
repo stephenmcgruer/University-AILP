@@ -1,0 +1,80 @@
+Folder: ailp_a2/ContinuousHWR/bin
+
+This folder contains scripts used to run the recognition
+algorithms.
+
+----- Programs -----
+
+baseline-helper.sh
+  A helper file for baseline-recog.sh. Takes in a list of reference writers,
+  generates patterns for them and passes them to base.sh.
+
+baseline-knn-combine.sh
+  Combines multiple distances into a set of 25/53 distances and chooses the
+  closest distance.
+
+baseline-recog.sh
+  Runs the baseline systems recognition for a list of patterns. Generates its
+  own random writers.
+
+base.sh
+  Wrapper for the Base java class.
+
+chwr-ana.pl
+  Does the accuracy checks for the recognition systems. It's written in perl, so
+  that has been about the extent of the knowledge I was able to glean.
+
+conv2labels.rb
+  A re-write of conv2labels.pl that can also handle the labels in the Annotations
+  folder.
+
+DictionaryLookup.java
+  A dictionary lookup script - given an input word and a dictionary file, finds
+  the closest match.
+
+dynamic-recog.sh
+  Runs the one-stage dp systems recognition for a set of test patterns and a
+  set of reference patterns.
+
+dynamic.sh
+  Wrapper for the Dynamic java class.
+
+multi-char-combine.rb
+  Combines multiple distances into a set of 10/52 distances and chooses the 
+  closest distance. Really should be merged with the other ruby script that
+  basically just does this, but... meh.
+
+old-dic-lookup.rb
+  An old version of the dictionary lookup that was just far too slow. Blooming
+  ruby.
+
+run-all.sh
+  Runs all of the experiments in the report. Will probably take what, about 24 hours?
+
+run-baseline.sh
+  Runs the baseline experiment. 
+
+run-dynamic.sh
+  Runs the one-stage DP experiment.
+
+run-recog.sh
+  The main recognition file that all of the experiment 'run-'ers pass through.
+
+run-segmented-com.sh
+  Runs the centre of mass experiment.
+
+run-segmented-histo.sh
+  Runs the (hard) histogram experiment.
+
+run-segmented-stroke.sh
+  Runs the stroke segmentation experiment.
+
+run-soft-segmented-histo.sh
+  Runs the (soft) histogram experiment.
+
+segmentation-recog.sh
+  The main recognition script for segmentation. Runs on a list of input patterns
+  and references.
+
+segmented.sh
+  Wrapper for the Segmented java class.

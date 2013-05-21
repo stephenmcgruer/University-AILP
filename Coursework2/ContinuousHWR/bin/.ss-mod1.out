@@ -1,0 +1,4 @@
+#>> Script= chwr-ana.pl
+#>> correct_model= prompted
+WORD:   %Corr=61.32 [H=1040, S=656, N=1696]
+LETTER: %Corr=76.04, ACC=69.75 [H=11532, D=1360, S=2274, I=954, N=15166]

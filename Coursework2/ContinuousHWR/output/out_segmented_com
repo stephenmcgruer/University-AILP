@@ -1,0 +1,32 @@
+n:
+  Mod 0 Accuracy: 32.00%
+  Mod 0 (User) Time: 827.007s
+  Mod 1 Accuracy: 34.25%
+  Mod 1 (User) Time: 848.453s
+  Mod 2 Accuracy: 25.12%
+  Mod 2 (User) Time: 846.678s
+  Mod 3 Accuracy: 28.38%
+  Mod 3 (User) Time: 847.803s
+  Mod 4 Accuracy: 27.38%
+  Mod 4 (User) Time: 847.198s
+  Average Accuracy: 29.42%
+  Average (User) Time: 843.42s
+  Accuracy Std Dev: 3.664
+  Time Std Dev: 9.203
+
+w:
+  Mod 0 Accuracy: 17.65%
+  Mod 0 (User) Time: 1597.350s
+  Mod 1 Accuracy: 18.04%
+  Mod 1 (User) Time: 1602.587s
+  Mod 2 Accuracy: 18.10%
+  Mod 2 (User) Time: 1661.428s
+  Mod 3 Accuracy: 17.04%
+  Mod 3 (User) Time: 1657.135s
+  Mod 4 Accuracy: 14.33%
+  Mod 4 (User) Time: 1680.753s
+  Average Accuracy: 17.03%
+  Average (User) Time: 1639.85s
+  Accuracy Std Dev: 1.568
+  Time Std Dev: 37.524
+

@@ -1,0 +1,62 @@
+Folder: AILP/IsolatedHWR/src/hwr
+
+Java source code directory.
+
+---- Programs ----
+
+Base.java
+  A main class for running the baseline system.
+
+Distance.java
+  An abstract class for a distance metric. Subclassed by ManhattanDistance
+  and SquaredEuclideanDistance
+
+DTWDist.java
+  Calculates the distance between a set of input patterns and reference patterns
+  using the DTW algorithm. Effectively a wrapper for DynamicTimeWarping.
+
+Dynamic.java
+  A main class for running the One-Stage dynamic programming algorithm.
+
+DynamicTimeWarping.java
+  Calculates the distance between two sets of points using the Dynamic
+  Time Warping.
+
+HistogramSegmentation.java
+  Segments an input pattern based on a histogram of its contents.
+
+MeanNormalisation.java
+  Normalises an input point using the mean normalisation method.
+
+Normalisation.java
+  An abstract class representing a normalisation. Subclassed by MeanNormalisation,
+  ScaleNormalisation, SlantNormalisation and SmoothNormalisation.
+
+OneStageDP.java
+  Performs the One-Stage dynamic programming algorithm for word recognition.
+
+PenDataReader.java
+  Contains methods to read in data in IIPL format and output a float vector 
+  representing it.
+
+ScaleNormalisation.java
+  Normalises an input point using the scale normalisation method.
+
+Segmentation.java
+  An abstract class representing a segmentation method.
+
+Segmented.java
+  A main class for running the different segmentation systems.
+
+SquaredEuclideanDistance.java
+  Calculates the distance between two points using the squared euclidean distance
+  metric.
+
+StrokeMeanSegmentation.java
+  Segments an input pattern using stroke segmentation with a centre of mass heuristic.
+
+StrokeSegmentation.java
+  Segments an input pattern using stroke segmentation.
+
+TimeWarping.java
+  An abstract class representing a time warping algorithm.
